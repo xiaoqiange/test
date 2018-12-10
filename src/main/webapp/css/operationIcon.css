@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* *{ margin:0; padding:0;}
+body{ font:12px/24px "宋体" Arial; color:#333; margin:0 auto;  }
+p,h1,h2,h3,h4,dl,dt,dd,img,ul,li{ margin:0; padding:0;}     */
+/* a{text-decoration:underline;color:blue;}
+a:hover{color:#000000;} */
+/* a:visited{color:#00FF00;} */
+/* a:active{color:#FFFFFF;} */
+
+li{list-style:none}
+img{border:0;}
+input{ vertical-align:middle;}
+
+.button-mini {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    display: inline-block;
+}
+.button-mini:hover {
+    border-color: red;
+}
+
+.button-mini-icon {
+    line-height: 16px;
+    padding-left: 12px;
+    display: inline-block;
+}
+.readonly{
+	background-color:#ebebe4;
+	border-style:solid;
+	border-width:1px;
+	border-color:#c3d9e0;
+}
+.datagrid-htable{text-align:center}
+.required{color:red}
+
+.table{border-collapse:collapse; background:#fafafa;}
+.table td{ border:1px solid #ddd;padding-left:2px; height:26px; line-height:26px;}/*表格边线行高*/
+.table-L-bg{  background:#f4f4f4; text-align:right;}/*表格左侧背景 */
+
+
+
+
+
+
+
+
+

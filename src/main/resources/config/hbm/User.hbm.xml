@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.pojo.User" table="user">
+        <comment>用户表</comment>
+        <id name="uid" type="int">
+            <column name="uid" length="11"></column>
+            <generator class="identity"/>
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="20">
+                <comment>用户名</comment>
+            </column>
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="20">
+                <comment>密码</comment>
+            </column>
+        </property>
+        <property name="code" type="string">
+            <column name="code" length="20">
+                <comment>用户编号</comment>
+            </column>
+        </property>
+        <property name="phone" type="string">
+            <column name="phone" length="20">
+                <comment>联系方式</comment>
+            </column>
+        </property>
+        <property name="sex" type="int">
+            <column name="sex" length="11">
+                <comment>联系方式</comment>
+            </column>
+        </property>
+        <property name="age" type="int">
+            <column name="age" length="11">
+                <comment>年龄</comment>
+            </column>
+        </property>
+        <property name="birthday" type="date">
+            <column name="birthday" length="11">
+                <comment>出身年月</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>
