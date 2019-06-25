@@ -7,7 +7,7 @@ import com.pojo.User;
 
 public class UserVo extends User{
     /**
-    * @Fields serialVersionUID : TODO(用一句话描述这个变量表示什么)
+    * @Fields serialVersionUID :
     */
     private static final long serialVersionUID = 2375656372587618649L;
     

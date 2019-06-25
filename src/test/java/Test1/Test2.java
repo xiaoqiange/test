@@ -6,6 +6,7 @@ import java.net.UnknownHostException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
@@ -63,6 +64,27 @@ public class Test2 {
         for (String retval: str.split("-")){
             System.out.print(retval);
         }
+    }
+    @Test
+    public void test7(){
+        List<String> lists = new ArrayList<String>();
+        lists.add("1");
+        lists.add("2");
+        lists.add("3");
+        lists.add("4");
+        lists.add("5");
+        lists.add("6");
+        lists.add("7");
+        Collections.reverse(lists);
+        lists.forEach((list)->System.out.println(list));
+    }
+    @Test
+    public void test8(){
+        int a=5,b=10;
+        a = a^b;
+        b = a^b;
+        a = a^b;
+        System.out.println("a="+a+",b="+b);
     }
     
 }

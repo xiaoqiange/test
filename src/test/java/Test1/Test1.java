@@ -243,9 +243,10 @@ public class Test1 {
     public void test10(){
         try{
             System.out.println("try run");
-            return;
+            throw new Exception();
         }catch (Exception e){
             System.out.println("catch");
+            return;
         }finally{
             System.out.println("finally");
             return;
