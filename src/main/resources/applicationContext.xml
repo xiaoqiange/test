@@ -12,7 +12,7 @@
     
     <!--spring扫描注解的配置   --> 
     <context:component-scan base-package="cn.controller" /> 
-    <task:annotation-driven />
+    <!--<task:annotation-driven />--> 
     <!-- 读取配置文件 -->
     <bean
             class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
